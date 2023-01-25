@@ -18,7 +18,7 @@ public class Diameter_of_Binary_Tree {
     }
 
     private static int diameter(TreeNode root) {
-        int[] diameter = new int[1];
+        int diameter[] =new int[1];
         height(root, diameter);
         return diameter[0];
     }

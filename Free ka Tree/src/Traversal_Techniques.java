@@ -15,9 +15,9 @@ public class Traversal_Techniques {
         root.left.right = new TreeNode(5);
         root.right.left = new TreeNode(6);
         root.right.right = new TreeNode(7);
-//        System.out.println("Level Order Traversal: " + levelOrder(root));
-//        System.out.println("Pre-Order Traversal: " + preOrder(root));
-//        System.out.println("In-Order Traversal: " + inOrder(root));
+        System.out.println("Level Order Traversal: " + levelOrder(root));
+        System.out.println("Pre-Order Traversal: " + preOrder(root));
+        System.out.println("In-Order Traversal: " + inOrder(root));
         System.out.println("Post Order Traversal: " + postOrder(root));
     }
 
