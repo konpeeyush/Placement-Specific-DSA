@@ -5,6 +5,8 @@ class TreeNode {
     public TreeNode(int data){
         this.data =data ;
     }
+
+
 }
 public class Implementation {
     public static void main(String[] args) {

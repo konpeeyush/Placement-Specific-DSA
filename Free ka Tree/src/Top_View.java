@@ -1,16 +1,15 @@
 import java.util.*;
 
-class Pair {
-    TreeNode node;
-    int col;
-
-    public Pair(TreeNode node, int col) {
-        this.node = node;
-        this.col = col;
-    }
-}
-
 public class Top_View {
+    static class Pair {
+        TreeNode node;
+        int col;
+
+        public Pair(TreeNode node, int col) {
+            this.node = node;
+            this.col = col;
+        }
+    }
     public static void main(String[] args) {
         //        Tree Structure used throughout
 //             1

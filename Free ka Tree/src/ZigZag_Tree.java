@@ -1,5 +1,4 @@
 import java.util.*;
-
 public class ZigZag_Tree {
     public static void main(String[] args) {
         //        Tree Structure used throughout
