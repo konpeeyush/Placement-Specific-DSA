@@ -8,17 +8,19 @@ public class Traversal_Techniques {
 //        2        3
 //       /  \     /  \
 //      4    5   6    7
-        TreeNode root = new TreeNode(1);
-        root.left = new TreeNode(2);
-        root.right = new TreeNode(3);
-        root.left.left = new TreeNode(4);
-        root.left.right = new TreeNode(5);
-        root.right.left = new TreeNode(6);
-        root.right.right = new TreeNode(7);
+        TreeNode root = TreeNode.insertNode();
+//        TreeNode root = new TreeNode(1);
+//        root.left = new TreeNode(2);
+//        root.right = new TreeNode(3);
+//        root.left.left = new TreeNode(4);
+//        root.left.right = new TreeNode(5);
+//        root.right.left = new TreeNode(6);
+//        root.right.right = new TreeNode(7);
         System.out.println("Level Order Traversal: " + levelOrder(root));
-        System.out.println("Pre-Order Traversal: " + preOrder(root));
-        System.out.println("In-Order Traversal: " + inOrder(root));
-        System.out.println("Post Order Traversal: " + postOrder(root));
+//        System.out.println("Pre-Order Traversal: " + preOrder(root));
+//        System.out.println("In-Order Traversal: " + inOrder(root));
+//        System.out.println("Post Order Traversal: " + postOrder(root));
+
     }
 
     static ArrayList<ArrayList<Integer>> levelOrder(TreeNode root) {

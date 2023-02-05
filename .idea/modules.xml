@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Arrays/Arrays.iml" filepath="$PROJECT_DIR$/Arrays/Arrays.iml" />
       <module fileurl="file://$PROJECT_DIR$/DAA Lab/DAA Lab.iml" filepath="$PROJECT_DIR$/DAA Lab/DAA Lab.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Dynamic Programming/Dynamic Programming.iml" filepath="$PROJECT_DIR$/Dynamic Programming/Dynamic Programming.iml" />
       <module fileurl="file://$PROJECT_DIR$/Free ka Tree/Free ka Tree.iml" filepath="$PROJECT_DIR$/Free ka Tree/Free ka Tree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Free ka Tree-BST/Free ka Tree-BST.iml" filepath="$PROJECT_DIR$/Free ka Tree-BST/Free ka Tree-BST.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Placement-Specific-DSA.iml" filepath="$PROJECT_DIR$/.idea/Placement-Specific-DSA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Recursion/Recursion.iml" filepath="$PROJECT_DIR$/Recursion/Recursion.iml" />
     </modules>
   </component>
 </project>
