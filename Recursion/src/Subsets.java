@@ -8,6 +8,7 @@ public class Subsets {
         ArrayList<Integer> output = new ArrayList<>();
         subsets(arr, ans, output, 0);
         System.out.println("All possibles subsets of " + Arrays.toString(arr) + " are " + ans);
+        System.out.println("Number of subsets: "+numberOfSubsets(arr,ans,output,0));
     }
 
     private static void subsets(int[] arr, ArrayList<ArrayList<Integer>> ans, ArrayList<Integer> output, int index) {
@@ -25,5 +26,13 @@ public class Subsets {
 //        Exclude
         output.remove(output.size()-1) ;
         subsets(arr,ans,output,index+1);
+    }
+    private static int numberOfSubsets(int[] arr, ArrayList<ArrayList<Integer>> ans, ArrayList<Integer> output, int index){
+        if(index>=arr.length){
+            return 1 ;
+        }
+        int left=numberOfSubsets(arr,ans,output,index+1) ;
+        int right=numberOfSubsets(arr,ans,output,index+1) ;
+        return left+right ;
     }
 }
