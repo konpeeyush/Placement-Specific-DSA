@@ -6,7 +6,9 @@ public class Subsets {
         int[] arr = {1, 2, 3};
         ArrayList<ArrayList<Integer>> ans = new ArrayList<>();
         ArrayList<Integer> output = new ArrayList<>();
+
         subsets(arr, ans, output, 0);
+
         System.out.println("All possibles subsets of " + Arrays.toString(arr) + " are " + ans);
         System.out.println("Number of subsets: "+numberOfSubsets(arr,ans,output,0));
     }
@@ -35,4 +37,5 @@ public class Subsets {
         int right=numberOfSubsets(arr,ans,output,index+1) ;
         return left+right ;
     }
+
 }

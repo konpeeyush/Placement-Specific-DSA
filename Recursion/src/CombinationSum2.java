@@ -2,8 +2,8 @@ import java.util.*;
 
 public class CombinationSum2 {
     public static void main(String[] args) {
-        int[] candidates = {10, 1, 2, 7, 6, 1, 5};
-        int target = 8;
+        int[] candidates = {1,1,1,2,2};
+        int target = 4;
         List<List<Integer>> result = combinationSum2(candidates, target);
         System.out.println(result);
     }
