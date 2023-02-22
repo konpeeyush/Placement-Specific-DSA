@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class QuickSort {
     public static void main(String[] args) {
-        int[] arr={5,4,3,2,1};
+        int[] arr={10,80,30,90,40,50,70};
         System.out.println( "Before Sorting: "+ Arrays.toString(arr) );
         quickSort(arr,0,arr.length-1);
         System.out.println( "After Sorting: "+ Arrays.toString(arr));
@@ -20,15 +20,16 @@ public class QuickSort {
         for(int j=low;j<high;j++){
             if(arr[j]<pivot){
                 i++;
-                int temp=arr[i];
-                arr[i]=arr[j];
-                arr[j]=temp;
+                swap(arr,i,j);
             }
         }
-        int temp=arr[i+1];
-        arr[i+1]=arr[high];
-        arr[high]=temp;
+        swap(arr,i+1,high);
         return i+1;
+    }
+    private static void swap(int[] arr, int i, int j){
+        int temp=arr[i];
+        arr[i]=arr[j];
+        arr[j]=temp;
     }
 }
 
