@@ -3,13 +3,17 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Arrays/Arrays.iml" filepath="$PROJECT_DIR$/Arrays/Arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Bitwise/Bitwise.iml" filepath="$PROJECT_DIR$/Bitwise/Bitwise.iml" />
       <module fileurl="file://$PROJECT_DIR$/DAA Lab/DAA Lab.iml" filepath="$PROJECT_DIR$/DAA Lab/DAA Lab.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DP/DP.iml" filepath="$PROJECT_DIR$/DP/DP.iml" />
       <module fileurl="file://$PROJECT_DIR$/Dynamic Programming/Dynamic Programming.iml" filepath="$PROJECT_DIR$/Dynamic Programming/Dynamic Programming.iml" />
       <module fileurl="file://$PROJECT_DIR$/Free ka Tree/Free ka Tree.iml" filepath="$PROJECT_DIR$/Free ka Tree/Free ka Tree.iml" />
       <module fileurl="file://$PROJECT_DIR$/Free ka Tree-BST/Free ka Tree-BST.iml" filepath="$PROJECT_DIR$/Free ka Tree-BST/Free ka Tree-BST.iml" />
       <module fileurl="file://$PROJECT_DIR$/Heap/Heap.iml" filepath="$PROJECT_DIR$/Heap/Heap.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Placement-Specific-DSA.iml" filepath="$PROJECT_DIR$/.idea/Placement-Specific-DSA.iml" />
       <module fileurl="file://$PROJECT_DIR$/Recursion/Recursion.iml" filepath="$PROJECT_DIR$/Recursion/Recursion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Strings/Strings.iml" filepath="$PROJECT_DIR$/Strings/Strings.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DAA Lab/Trees/Trees.iml" filepath="$PROJECT_DIR$/DAA Lab/Trees/Trees.iml" />
     </modules>
   </component>
 </project>
